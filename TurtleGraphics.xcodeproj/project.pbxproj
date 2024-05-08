@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		094CFCD82BEB925F008E7E03 /* TurtleGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 094CFCD72BEB925F008E7E03 /* TurtleGraphics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		094CFD032BEB930A008E7E03 /* Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCE42BEB930A008E7E03 /* Angle.swift */; };
+		094CFD042BEB930A008E7E03 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCE52BEB930A008E7E03 /* Canvas.swift */; };
+		094CFD052BEB930A008E7E03 /* CATransaction+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCE62BEB930A008E7E03 /* CATransaction+.swift */; };
+		094CFD062BEB930A008E7E03 /* CGColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCE72BEB930A008E7E03 /* CGColor+.swift */; };
+		094CFD072BEB930A008E7E03 /* CGPoint+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCE82BEB930A008E7E03 /* CGPoint+.swift */; };
+		094CFD082BEB930A008E7E03 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCE92BEB930A008E7E03 /* Color.swift */; };
+		094CFD092BEB930A008E7E03 /* Color+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCEA2BEB930A008E7E03 /* Color+Palette.swift */; };
+		094CFD0A2BEB930A008E7E03 /* ImageCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCEB2BEB930A008E7E03 /* ImageCanvas.swift */; };
+		094CFD0B2BEB930A008E7E03 /* Localize+Ja.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCEC2BEB930A008E7E03 /* Localize+Ja.swift */; };
+		094CFD0C2BEB930A008E7E03 /* Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCED2BEB930A008E7E03 /* Other.swift */; };
+		094CFD0D2BEB930A008E7E03 /* Pen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCEE2BEB930A008E7E03 /* Pen.swift */; };
+		094CFD0E2BEB930A008E7E03 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCEF2BEB930A008E7E03 /* Shape.swift */; };
+		094CFD0F2BEB930A008E7E03 /* Shape+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCF02BEB930A008E7E03 /* Shape+.swift */; };
+		094CFD102BEB930A008E7E03 /* Speed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCF12BEB930A008E7E03 /* Speed.swift */; };
+		094CFD112BEB930A008E7E03 /* Speed+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCF22BEB930A008E7E03 /* Speed+.swift */; };
+		094CFD122BEB930A008E7E03 /* Tortoise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCF32BEB930A008E7E03 /* Tortoise.swift */; };
+		094CFD132BEB930A008E7E03 /* Tortoise+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCF42BEB930A008E7E03 /* Tortoise+.swift */; };
+		094CFD142BEB930A008E7E03 /* Tortoise+Alias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCF52BEB930A008E7E03 /* Tortoise+Alias.swift */; };
+		094CFD152BEB930A008E7E03 /* TortoiseDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCF62BEB930A008E7E03 /* TortoiseDelegate.swift */; };
+		094CFD162BEB930A008E7E03 /* TortoiseState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCF72BEB930A008E7E03 /* TortoiseState.swift */; };
+		094CFD172BEB930A008E7E03 /* Vec2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCF82BEB930A008E7E03 /* Vec2D.swift */; };
+		094CFD182BEB930A008E7E03 /* Vec2D+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCF92BEB930A008E7E03 /* Vec2D+.swift */; };
+		094CFD192BEB930A008E7E03 /* PlaygroundCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFCFB2BEB930A008E7E03 /* PlaygroundCanvas.swift */; };
+		094CFD2A2BEB9733008E7E03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFD292BEB9733008E7E03 /* AppDelegate.swift */; };
+		094CFD2C2BEB9733008E7E03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFD2B2BEB9733008E7E03 /* SceneDelegate.swift */; };
+		094CFD312BEB9733008E7E03 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 094CFD302BEB9733008E7E03 /* Base */; };
+		094CFD332BEB9734008E7E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094CFD322BEB9734008E7E03 /* Assets.xcassets */; };
+		094CFD362BEB9734008E7E03 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 094CFD352BEB9734008E7E03 /* Base */; };
+		094CFD3D2BEB977F008E7E03 /* TurtleGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094CFCD42BEB925F008E7E03 /* TurtleGraphics.framework */; };
+		094CFD3E2BEB977F008E7E03 /* TurtleGraphics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 094CFCD42BEB925F008E7E03 /* TurtleGraphics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		094CFD482BEBA85B008E7E03 /* PlaygroundCanvasVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFD472BEBA85B008E7E03 /* PlaygroundCanvasVC.swift */; };
+		094CFD4A2BEBBE78008E7E03 /* DebugCommandsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094CFD492BEBBE78008E7E03 /* DebugCommandsVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		094CFD3F2BEB977F008E7E03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 094CFCCB2BEB925F008E7E03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 094CFCD32BEB925F008E7E03;
+			remoteInfo = TurtleGraphics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		094CFD412BEB977F008E7E03 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				094CFD3E2BEB977F008E7E03 /* TurtleGraphics.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		094CFCD42BEB925F008E7E03 /* TurtleGraphics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TurtleGraphics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		094CFCD72BEB925F008E7E03 /* TurtleGraphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TurtleGraphics.h; sourceTree = "<group>"; };
+		094CFCE42BEB930A008E7E03 /* Angle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Angle.swift; sourceTree = "<group>"; };
+		094CFCE52BEB930A008E7E03 /* Canvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		094CFCE62BEB930A008E7E03 /* CATransaction+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CATransaction+.swift"; sourceTree = "<group>"; };
+		094CFCE72BEB930A008E7E03 /* CGColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGColor+.swift"; sourceTree = "<group>"; };
+		094CFCE82BEB930A008E7E03 /* CGPoint+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+.swift"; sourceTree = "<group>"; };
+		094CFCE92BEB930A008E7E03 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		094CFCEA2BEB930A008E7E03 /* Color+Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Palette.swift"; sourceTree = "<group>"; };
+		094CFCEB2BEB930A008E7E03 /* ImageCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCanvas.swift; sourceTree = "<group>"; };
+		094CFCEC2BEB930A008E7E03 /* Localize+Ja.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Localize+Ja.swift"; sourceTree = "<group>"; };
+		094CFCED2BEB930A008E7E03 /* Other.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Other.swift; sourceTree = "<group>"; };
+		094CFCEE2BEB930A008E7E03 /* Pen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pen.swift; sourceTree = "<group>"; };
+		094CFCEF2BEB930A008E7E03 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		094CFCF02BEB930A008E7E03 /* Shape+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Shape+.swift"; sourceTree = "<group>"; };
+		094CFCF12BEB930A008E7E03 /* Speed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speed.swift; sourceTree = "<group>"; };
+		094CFCF22BEB930A008E7E03 /* Speed+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Speed+.swift"; sourceTree = "<group>"; };
+		094CFCF32BEB930A008E7E03 /* Tortoise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tortoise.swift; sourceTree = "<group>"; };
+		094CFCF42BEB930A008E7E03 /* Tortoise+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tortoise+.swift"; sourceTree = "<group>"; };
+		094CFCF52BEB930A008E7E03 /* Tortoise+Alias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Tortoise+Alias.swift"; sourceTree = "<group>"; };
+		094CFCF62BEB930A008E7E03 /* TortoiseDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TortoiseDelegate.swift; sourceTree = "<group>"; };
+		094CFCF72BEB930A008E7E03 /* TortoiseState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TortoiseState.swift; sourceTree = "<group>"; };
+		094CFCF82BEB930A008E7E03 /* Vec2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vec2D.swift; sourceTree = "<group>"; };
+		094CFCF92BEB930A008E7E03 /* Vec2D+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Vec2D+.swift"; sourceTree = "<group>"; };
+		094CFCFB2BEB930A008E7E03 /* PlaygroundCanvas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundCanvas.swift; sourceTree = "<group>"; };
+		094CFD272BEB9733008E7E03 /* TurtleGraphicsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurtleGraphicsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		094CFD292BEB9733008E7E03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		094CFD2B2BEB9733008E7E03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		094CFD302BEB9733008E7E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		094CFD322BEB9734008E7E03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		094CFD352BEB9734008E7E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		094CFD372BEB9734008E7E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		094CFD442BEB9FCA008E7E03 /* PlaygroundSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PlaygroundSupport.framework; sourceTree = "<group>"; };
+		094CFD472BEBA85B008E7E03 /* PlaygroundCanvasVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundCanvasVC.swift; sourceTree = "<group>"; };
+		094CFD492BEBBE78008E7E03 /* DebugCommandsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugCommandsVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		094CFCD12BEB925F008E7E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094CFD242BEB9733008E7E03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094CFD3D2BEB977F008E7E03 /* TurtleGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094CFCCA2BEB925F008E7E03 = {
+			isa = PBXGroup;
+			children = (
+				094CFCFA2BEB930A008E7E03 /* Core */,
+				094CFCFB2BEB930A008E7E03 /* PlaygroundCanvas.swift */,
+				094CFD472BEBA85B008E7E03 /* PlaygroundCanvasVC.swift */,
+				094CFCD62BEB925F008E7E03 /* TurtleGraphics */,
+				094CFD282BEB9733008E7E03 /* TurtleGraphicsApp */,
+				094CFCD52BEB925F008E7E03 /* Products */,
+				094CFD3C2BEB977F008E7E03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		094CFCD52BEB925F008E7E03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				094CFCD42BEB925F008E7E03 /* TurtleGraphics.framework */,
+				094CFD272BEB9733008E7E03 /* TurtleGraphicsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		094CFCD62BEB925F008E7E03 /* TurtleGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				094CFCD72BEB925F008E7E03 /* TurtleGraphics.h */,
+			);
+			path = TurtleGraphics;
+			sourceTree = "<group>";
+		};
+		094CFCFA2BEB930A008E7E03 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				094CFCE42BEB930A008E7E03 /* Angle.swift */,
+				094CFCE52BEB930A008E7E03 /* Canvas.swift */,
+				094CFCE62BEB930A008E7E03 /* CATransaction+.swift */,
+				094CFCE72BEB930A008E7E03 /* CGColor+.swift */,
+				094CFCE82BEB930A008E7E03 /* CGPoint+.swift */,
+				094CFCE92BEB930A008E7E03 /* Color.swift */,
+				094CFCEA2BEB930A008E7E03 /* Color+Palette.swift */,
+				094CFCEB2BEB930A008E7E03 /* ImageCanvas.swift */,
+				094CFCEC2BEB930A008E7E03 /* Localize+Ja.swift */,
+				094CFCED2BEB930A008E7E03 /* Other.swift */,
+				094CFCEE2BEB930A008E7E03 /* Pen.swift */,
+				094CFCEF2BEB930A008E7E03 /* Shape.swift */,
+				094CFCF02BEB930A008E7E03 /* Shape+.swift */,
+				094CFCF12BEB930A008E7E03 /* Speed.swift */,
+				094CFCF22BEB930A008E7E03 /* Speed+.swift */,
+				094CFCF32BEB930A008E7E03 /* Tortoise.swift */,
+				094CFCF42BEB930A008E7E03 /* Tortoise+.swift */,
+				094CFCF52BEB930A008E7E03 /* Tortoise+Alias.swift */,
+				094CFCF62BEB930A008E7E03 /* TortoiseDelegate.swift */,
+				094CFCF72BEB930A008E7E03 /* TortoiseState.swift */,
+				094CFCF82BEB930A008E7E03 /* Vec2D.swift */,
+				094CFCF92BEB930A008E7E03 /* Vec2D+.swift */,
+			);
+			name = Core;
+			path = TurtleGraphics/Core;
+			sourceTree = "<group>";
+		};
+		094CFD282BEB9733008E7E03 /* TurtleGraphicsApp */ = {
+			isa = PBXGroup;
+			children = (
+				094CFD292BEB9733008E7E03 /* AppDelegate.swift */,
+				094CFD2B2BEB9733008E7E03 /* SceneDelegate.swift */,
+				094CFD2F2BEB9733008E7E03 /* Main.storyboard */,
+				094CFD322BEB9734008E7E03 /* Assets.xcassets */,
+				094CFD342BEB9734008E7E03 /* LaunchScreen.storyboard */,
+				094CFD372BEB9734008E7E03 /* Info.plist */,
+				094CFD492BEBBE78008E7E03 /* DebugCommandsVC.swift */,
+			);
+			path = TurtleGraphicsApp;
+			sourceTree = "<group>";
+		};
+		094CFD3C2BEB977F008E7E03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				094CFD442BEB9FCA008E7E03 /* PlaygroundSupport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		094CFCCF2BEB925F008E7E03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094CFCD82BEB925F008E7E03 /* TurtleGraphics.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		094CFCD32BEB925F008E7E03 /* TurtleGraphics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094CFCDB2BEB925F008E7E03 /* Build configuration list for PBXNativeTarget "TurtleGraphics" */;
+			buildPhases = (
+				094CFCCF2BEB925F008E7E03 /* Headers */,
+				094CFCD02BEB925F008E7E03 /* Sources */,
+				094CFCD12BEB925F008E7E03 /* Frameworks */,
+				094CFCD22BEB925F008E7E03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurtleGraphics;
+			productName = TurtleGraphics;
+			productReference = 094CFCD42BEB925F008E7E03 /* TurtleGraphics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		094CFD262BEB9733008E7E03 /* TurtleGraphicsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094CFD382BEB9734008E7E03 /* Build configuration list for PBXNativeTarget "TurtleGraphicsApp" */;
+			buildPhases = (
+				094CFD232BEB9733008E7E03 /* Sources */,
+				094CFD242BEB9733008E7E03 /* Frameworks */,
+				094CFD252BEB9733008E7E03 /* Resources */,
+				094CFD412BEB977F008E7E03 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				094CFD402BEB977F008E7E03 /* PBXTargetDependency */,
+			);
+			name = TurtleGraphicsApp;
+			productName = TurtleGraphicsApp;
+			productReference = 094CFD272BEB9733008E7E03 /* TurtleGraphicsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		094CFCCB2BEB925F008E7E03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					094CFCD32BEB925F008E7E03 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					094CFD262BEB9733008E7E03 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 094CFCCE2BEB925F008E7E03 /* Build configuration list for PBXProject "TurtleGraphics" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 094CFCCA2BEB925F008E7E03;
+			productRefGroup = 094CFCD52BEB925F008E7E03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				094CFCD32BEB925F008E7E03 /* TurtleGraphics */,
+				094CFD262BEB9733008E7E03 /* TurtleGraphicsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		094CFCD22BEB925F008E7E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094CFD252BEB9733008E7E03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094CFD332BEB9734008E7E03 /* Assets.xcassets in Resources */,
+				094CFD362BEB9734008E7E03 /* Base in Resources */,
+				094CFD312BEB9733008E7E03 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		094CFCD02BEB925F008E7E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094CFD062BEB930A008E7E03 /* CGColor+.swift in Sources */,
+				094CFD042BEB930A008E7E03 /* Canvas.swift in Sources */,
+				094CFD192BEB930A008E7E03 /* PlaygroundCanvas.swift in Sources */,
+				094CFD132BEB930A008E7E03 /* Tortoise+.swift in Sources */,
+				094CFD082BEB930A008E7E03 /* Color.swift in Sources */,
+				094CFD182BEB930A008E7E03 /* Vec2D+.swift in Sources */,
+				094CFD0E2BEB930A008E7E03 /* Shape.swift in Sources */,
+				094CFD152BEB930A008E7E03 /* TortoiseDelegate.swift in Sources */,
+				094CFD0C2BEB930A008E7E03 /* Other.swift in Sources */,
+				094CFD032BEB930A008E7E03 /* Angle.swift in Sources */,
+				094CFD102BEB930A008E7E03 /* Speed.swift in Sources */,
+				094CFD122BEB930A008E7E03 /* Tortoise.swift in Sources */,
+				094CFD072BEB930A008E7E03 /* CGPoint+.swift in Sources */,
+				094CFD482BEBA85B008E7E03 /* PlaygroundCanvasVC.swift in Sources */,
+				094CFD0D2BEB930A008E7E03 /* Pen.swift in Sources */,
+				094CFD052BEB930A008E7E03 /* CATransaction+.swift in Sources */,
+				094CFD0F2BEB930A008E7E03 /* Shape+.swift in Sources */,
+				094CFD142BEB930A008E7E03 /* Tortoise+Alias.swift in Sources */,
+				094CFD172BEB930A008E7E03 /* Vec2D.swift in Sources */,
+				094CFD0B2BEB930A008E7E03 /* Localize+Ja.swift in Sources */,
+				094CFD0A2BEB930A008E7E03 /* ImageCanvas.swift in Sources */,
+				094CFD092BEB930A008E7E03 /* Color+Palette.swift in Sources */,
+				094CFD162BEB930A008E7E03 /* TortoiseState.swift in Sources */,
+				094CFD112BEB930A008E7E03 /* Speed+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094CFD232BEB9733008E7E03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094CFD2A2BEB9733008E7E03 /* AppDelegate.swift in Sources */,
+				094CFD4A2BEBBE78008E7E03 /* DebugCommandsVC.swift in Sources */,
+				094CFD2C2BEB9733008E7E03 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		094CFD402BEB977F008E7E03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 094CFCD32BEB925F008E7E03 /* TurtleGraphics */;
+			targetProxy = 094CFD3F2BEB977F008E7E03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		094CFD2F2BEB9733008E7E03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094CFD302BEB9733008E7E03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		094CFD342BEB9734008E7E03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094CFD352BEB9734008E7E03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		094CFCD92BEB925F008E7E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		094CFCDA2BEB925F008E7E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		094CFCDC2BEB925F008E7E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4YSH9CUM84;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harmonicsense.TurtleGraphics;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		094CFCDD2BEB925F008E7E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4YSH9CUM84;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.harmonicsense.TurtleGraphics;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		094CFD392BEB9734008E7E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YSH9CUM84;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TurtleGraphicsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harmonicsense.TurtleGraphicsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		094CFD3A2BEB9734008E7E03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YSH9CUM84;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TurtleGraphicsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harmonicsense.TurtleGraphicsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		094CFCCE2BEB925F008E7E03 /* Build configuration list for PBXProject "TurtleGraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094CFCD92BEB925F008E7E03 /* Debug */,
+				094CFCDA2BEB925F008E7E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		094CFCDB2BEB925F008E7E03 /* Build configuration list for PBXNativeTarget "TurtleGraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094CFCDC2BEB925F008E7E03 /* Debug */,
+				094CFCDD2BEB925F008E7E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		094CFD382BEB9734008E7E03 /* Build configuration list for PBXNativeTarget "TurtleGraphicsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094CFD392BEB9734008E7E03 /* Debug */,
+				094CFD3A2BEB9734008E7E03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 094CFCCB2BEB925F008E7E03 /* Project object */;
+}

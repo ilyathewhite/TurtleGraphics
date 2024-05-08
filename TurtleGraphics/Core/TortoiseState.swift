@@ -1,0 +1,21 @@
+import Foundation
+
+struct TurtleState: Equatable, Codable {
+
+    var position: Vec2D = Vec2D()
+
+    var heading: Angle = Angle(0, .degree)
+
+    var pen: Pen = Pen()
+
+    var shape: Shape = .turtle
+
+    var isVisible: Bool = true
+
+    var speed: Speed = .normal
+
+    var strokePath: [Vec2D] = []
+
+    var fillPath: [Vec2D]?
+
+}
